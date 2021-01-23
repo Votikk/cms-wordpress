@@ -9,3 +9,19 @@ Version: 1.0.0
 Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats
 Text Domain: xyz-child
 */
+
+/* kolorystyka systemu */
+.entry-tag a, .logged-in-as a, .cat-item a {
+  color: #17882c !important;
+}
+
+.entry-categories .label-primary {
+  background-color: #17882c !important;
+}
+
+.header-filter-gradient {
+  background: rgb(1,36,0) !important;
+  background: linear-gradient(90deg, rgba(1,36,0,1) 0%, rgba(23,136,44,1) 50%, rgba(0,44,255,1) 97%) !important;
+}
+/* koniec kolorystyki systemum */
+
